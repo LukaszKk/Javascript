@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Oferta - Uroczysko</title>
+		<link rel="stylesheet" type="text/css" href="Menu.css">
+		<link rel="stylesheet" type="text/css" href="Strona główna.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="jQuery.js"></script>
+		<style>
+			#Rez1{
+				font-weight: bold;
+			}
+			#Rez2{
+				font-weight: bold;
+			}
+			div div form table td{
+				display: block;
+			}
+			#im1{
+				display: none;
+			}
+			#im2{
+				display: none;
+			}
+			#nz1{
+				display: none;
+			}
+			#nz2{
+				display: none;
+			}
+			#il1{
+				display: none;
+			}
+			#il2{
+				display: none;
+			}
+			#joke{
+				display: none;
+				font-weight: bold;
+			}
+			#tel1{
+				display: none;
+			}
+			#tel2{
+				display: none;
+			}
+			#dat1{
+				display: none;
+			}
+			#dat2{
+				display: none;
+			}
+			#rezerwuj{
+				display: none;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<!---Menu------------------------------------------------->
+			<nav>
+				<li><a href="Strona główna.html"><img src="Obrazy/stand_logo1.png" id="logo"></a></li><!-- źródło: https://nagatosystem.pl/images/stands/1014970/stand_logo.png --> 
+				<ul id="menu">	
+					<li><a href="Strona główna.html#Aktual">Aktualności</a></li>
+					<li><a href="Galeria.html">Galeria</a></li>
+					<li><a href="Strona główna.html#KartyDan">Menu</a></li>
+					<li><a href="Oferta.html">Oferta</a></li>
+					<li><a href="Strona główna.html#Kontakt">Kontakt</a></li>
+					<li><a href="Źródła.html">Źródła</a></li>
+				</ul>
+			</nav>
+			<!-------------------------------------------------------->
+			<div>
+				<p>
+						Chcesz zarezerwować stolik?
+				</p>
+				<p id="Rez1">
+					Wystarczy, że wypełnisz formularz:
+				</p>
+				<form name="formularz1" id="formularz1">
+					<table>
+						<tr>
+							<td>Imię</td>
+							<td><input type="text" name="imie"><p id="im1">&#10060 </p><p id="im2">&#9989 </p></td>
+							<td>Nazwisko</td>
+							<td><input type="text" name="nazwisko"><p id="nz1">&#10060 </p><p id="nz2">&#9989 </p></td>
+							<td>Ilość osób</td>
+							<td><input type="text" name="osoby"><p id="il1">&#10060 </p><p id="il2">&#9989 </p><p id="joke">Nie mamy tak dużego stolika<p></td>
+							<td>Numer telefonu</td>
+							<td><input type="text" name="telefon"><p id="tel1">&#10060 </p><p id="tel2">&#9989 </p></td>
+							<td>Data &#128197 </td>
+							<td>DD-MM-YYYY</td>
+							<td><input type="text" name="data"><p id="dat1">&#10060 </p><p id="dat2">&#9989 </p></td>
+							<td>Godzina</td>
+							<td>
+								<select>
+									<option>8</option><option>9</option>
+									<option>10</option><option>11</option>
+									<option>12</option><option>13</option>
+									<option>14</option><option>15</option>
+									<option>16</option><option>17</option>
+									<option>18</option><option>19</option>
+									<option>20</option><option>21</option>
+									<option>22</option><option>23</option>
+								</select>
+								<select>
+									<option>00</option>
+									<option>15</option>
+									<option>30</option>
+									<option>45</option>
+								</select>
+							</td>
+							<td>Uwagi</td>
+							<td>
+								<textarea cols="40" rows="5" name="uwagi"></textarea>
+							</td>
+							<td colspan="2">
+								<input type="button" value="Rezerwuj" onClick="validate(this.form);">
+								<p id="rezerwuj">Dziękujemy za rezerwację!<p>
+							</td>
+						</tr>
+					</table>
+				</form>
+				<p>
+					Nasza restauracja organizuje również imprezy okolicznościowe.
+					Chcesz wynająć salę?
+				</p>
+				<p id="Rez2">
+					 Zadzwoń do nas: 41 333 66 77
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

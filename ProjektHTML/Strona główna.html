@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Restauracja - Uroczysko</title>
+		<link rel="stylesheet" type="text/css" href="Menu.css">
+		<link rel="stylesheet" type="text/css" href="Strona główna.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="jQuery.js"></script>
+	</head>
+	<body>
+		<div>
+	<!--Menu-->
+			<nav>
+				<li><a href="Strona główna.html"><img src="Obrazy/stand_logo1.png" id="logo"></a></li><!-- źródło: https://nagatosystem.pl/images/stands/1014970/stand_logo.png --> 
+				<ul id="menu">	
+					<li><a href="#Aktual">Aktualności</a></li>
+					<li><a href="Galeria.html">Galeria</a></li>
+					<li><a href="#KartyDan">Menu &#10148 </a>
+						<ul id="podmenu">
+							<ul>
+								<li class="h31"><a href="#h31">Zupy</a></li>
+								<li class="h32"><a href="#h32">Dania główne</a></li>
+								<li class="h33"><a href="#h33">Desery</a></li>
+								<li class="h34"><a href="#h34">Napoje</a></li>
+							</ul>
+						</ul>
+					</li>
+					<li><a href="Oferta.html">Oferta</a></li>
+					<li><a href="#Kontakt">Kontakt</a></li>
+					<li><a href="Źródła.html">Źródła</a></li>
+				</ul>
+			</nav>
+	<!--Reszta strony-->
+			<div>
+				<div id="Zdjecia"> <!--żródło: http://lodz.restauracjapolka.pl/galerie/zdjecia-wnetrz/#galleria[pp_gal]/1/ -->
+					<a href="Galeria.html">
+						<img src="Obrazy/1.jpg"/>
+					</a>
+					<a href="Galeria.html">	
+						<img src="Obrazy/2.jpg"/>
+					</a>
+					<a href="Galeria.html">
+						<img src="Obrazy/3.jpg"/>
+					</a>
+					<a href="Galeria.html">
+						<img src="Obrazy/4.jpg"/>
+					</a>
+					<a href="Galeria.html">
+						<img src="Obrazy/5.jpg"/>
+					</a>
+					<a href="Galeria.html">
+						<img src="Obrazy/6.jpg"/> <!-- żródło: http://www.pensjonatkazimierski.eu/restauracja/restauracja-winiarnia/0,-a,6,55 -->
+					</a>
+				</div>
+				<h1>Restauracja od pokoleń</h1>
+				<div id="Aktual">
+					<h2>Aktualności</h2>
+					<hr>
+					<h4>Gęsina czeka</h4>
+					<p>
+						Jak co roku zapraszamy wszystkich do spróbowania naszych potraw przyrządzanych z najlepszej gęsiny.
+					</p>
+					<p class="Hidden" id="H1"> 
+						W naszym menu na stałe goszczą różne gęsinowe przysmaki, ale specjalnie w tym okresie polecamy szczególnie dania z gęsiny.
+						Okazja ku temu jest wyśmienita, ponieważ własnie trwa akcja "Gęsina dla wszystkich", w której oczywiście
+						uczestniczymy. <!-- żródło: http://www.ostromecka.com.pl/aktualnosci.html -->
+					</p>
+					<p class="More" id="M1">Więcej</p>
+					<hr>
+					<h4>Zmiana godzin pracy</h4>
+					<p>
+						29.05.2017 zmiana godzin pracy restauracji
+					</p>
+					<p class="Hidden" id="H2">
+						Kochani,jutro, tj. 20 maja 2017 restauracja czynna od 15:00
+						Przepraszamy :) <!-- żródło: http://www.restauracjatabun.kuznia.net/?aktualnosci,2 -->
+					</p>
+					<p class="More" id="M2">Więcej</p>
+					<hr>
+					<h4>Wigilia</h4>
+					<p>
+						Wigilia firmowa w restauracji Uroczysko
+					</p>
+					<p class="Hidden" id="H3">
+						Wigilia firmowa to doskonała okazja do podtrzymania pozytywnych relacji oraz co najważniejsze, do budowania trwałych więzi pomiędzy pracownikiem a firmą.
+						Jest swoistym podziękowaniem dla pracowników za rok ich efektywnej pracy oraz zmotywowaniem do dalszych działań.
+					</p>
+					<p class="More" id="M3">Więcej</p>
+					<hr>
+					<h4>Walentynki</h4>
+					<p>
+						Kolacja Walentynkowa z muzyką na żywo
+					</p>
+					<p class="Hidden" id="H4">
+						Zapraszamy do odwiedzania naszej restauracji w wigilię Św. Walentego.
+						Romantyczna kolacja  pełna afrodyzjaków przy muzyce na żywo w wykonaniu Krystyny Gedzik  wokalistki jazzowej 
+						o niespotykanej barwie głosu. Na co dzień Krystyna aranżuje i wykonuje utwory o zróżnicowanej stylistyce. Dlatego nie 
+						zabraknie również słynnych i lubianych polskich piosenek, standardów jazzowych ,kilka bluesowych kompozycji oraz piosenek popularnych.
+						To doskonała okazja by spędzić wieczór przy muzyce gdzie każdy może znaleźć coś dla siebie. Krystynie towarzyszyć będzie Łukasz Juźko na saksofonie oraz 
+						Piotr Szajrych na kontrabasie.
+						Zapraszamy 13.02.2017 na godz. 16.30 lub 19.00 
+					</p>
+					<p class="More" id="M4">Więcej</p>
+				</div>
+				<div id="Onas">
+					<h1>O nas</h1>
+					<p>
+						Nasza restauracja jest kwintesencją lat doświadczenia jej właścicieli, która z dodatkiem nowoczesności jej młodych managerów,
+						klasyczności wystroju, szczypty relaksującej atmosfery i wyborowego menu tworzy podwaliny pod najszybciej rozwijającą się restaurację
+						w regionie. Pracownicy naszej restauracji to selektywnie dobrani specjaliści w swoich dziedzinach, którzy w pełni oddani są swojej pracy.
+						Kucharze, ich asystenci, kelnerzy oraz managerowie to profesjonaliści którzy swoje kariery związali z przemysłem gastronomicznym.<!-- źródło: http://staradrukarnia.pl/informacje/ -->
+					</p>
+				</div>
+	<!--------------------------------------------------------->
+				<div id="hr">
+					<hr>
+				</div>
+				<div id="KartyDan">
+					<h2>Karty dań</h2>
+				</div>
+				<h3 id="h31" class="h31">Karta zup &#8801 </h3>
+				<div id="Karta1">
+					<div id="KartaZup">
+						<ul>
+							<br>
+							<li>1) Krupnik</li>
+							<li>2) Rosół</li>
+							<li>3) Pomidorowa</li>
+							<li>Żurek z:</li>
+							<ul>
+								<li>4) jajkiem</li>
+								<li>5) ziemniakiem</li>
+							</ul>
+							<li>6) Chrzanowa</li>
+							<li>7) Grochowa</li>
+						</ul>
+					</div>
+					<div id="KartaZupCeny">
+						<h4>Cena:</h4>
+						<ul>
+							<li>1) 6,79zł</li>
+							<li>2) 5,89zł</li>
+							<li>3) 8,32zł</li>
+							<br>
+							<ul>
+								<li>4) 9,39zł</li>
+								<li>5) 8,45zł</li>
+							</ul>
+							<li>6) 6,56zł</li>
+							<li>7) 4,19zł</li>
+						</ul>
+					</div>
+				</div>
+				<h3 id="h32" class="h32">Karta dań głównych &#8801 </h3>
+				<div id="Karta2">
+					<div id="KartaDanG">
+						<ul>
+							<br>
+							<li>1) Pierś z kurczaka z rusztu</li>
+							<li>2) Filer z kurczaka</li>
+							<li>3) Sznycel</li>
+							<li>4) Filer z kurczaka marynowany</li>
+							<li>5) Wątróbka</li>
+						</ul>
+					</div>
+					<div id="KartaDanGCeny">
+						<h4>Cena:</h4>
+						<ul>
+							<li>1) 13,86zł</li>
+							<li>2) 12,85zł</li>
+							<li>3) 20,45zł</li>
+							<li>4) 21,90zł</li>
+							<li>5) 30,54zł</li>
+						</ul>
+					</div>
+				</div>
+				<h3 id="h33" class="h33">Karta deserów &#8801 </h3>
+				<div id="Karta3">
+					<div id="KartaDes">
+						<ul>
+							<br>
+							<li>1) Sernik</li>
+							<li>2) Lody</li>
+							<li>3) Naleśniki</li>
+						</ul>
+					</div>
+					<div id="KartaDesCeny">
+						<h4>Cena:</h4>
+						<ul>
+							<li>1) 15,86zł</li>
+							<li>2) 11,85zł</li>
+							<li>3) 8,45zł</li>
+						</ul>
+					</div>
+				</div>
+				<h3 id="h34" class="h34">Karta napoi &#8801 </h3>
+				<div id="Karta4">
+					<div id="KartaNap">
+						<ul>
+							<br>
+							<li>1) Piwo</li>
+							<li>2) Sok pomarańczowy</li>
+							<li>4) Sok jabłkowy</li>
+							<li>5) Sok z kiwi</li>
+						</ul>
+					</div>
+					<div id="KartaNapCeny">
+						<h4>Cena:</h4>
+						<ul>
+							<li>1) 3,86zł</li>
+							<li>2) 2,85zł</li>
+							<li>3) 2,45zł</li>
+							<li>4) 4,65zł</li>
+						</ul>
+					</div>
+				</div>
+	<!------------------------------------------------------------->
+				<footer id="Kontakt">
+					<h4>Kontakt</h4>
+					<ul id="ul1">
+						<li>&#9742 41 333 66 77</li>
+						<li>&#9993 uroczysko@email.com</li>
+						<li>&#9737 ul. Restauracyjna, 30-300 Uroczowo</li>
+					</ul>
+					<h5>Social Media:</h5>
+					<ul id="ul2">
+						<li><a href="https://www.facebook.com/">Facebook</a></li>
+						<li><a href="https://www.youtube.com/?hl=pl&gl=PL">YouTube</a></li>
+						<li><a href="https://twitter.com/?lang=pl">Twitter</a></li>
+					</ul>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

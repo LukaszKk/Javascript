@@ -1,0 +1,83 @@
+#logo{
+	width: 100%;
+	background-color: lightblue;
+	border-radius: 3px;
+}
+div nav{
+	width: 	14%;
+	height: 100%;
+	position: fixed;
+	list-style-type: none;
+}
+#menu{
+	float: left;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #bf4040;
+	list-style-type: none;
+	white-space: nowrap;
+	border-radius: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 125%;
+}
+#menu li{
+	border-bottom: 1px solid black;
+	padding: 3%;
+	display: block;
+	padding: 10%;
+	word-spacing: 5px;
+}
+#menu li:last-child{
+	border: none;
+}
+#menu li:hover{
+	background-color: #c65353;
+}
+#menu li:hover:first-child{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#menu li:hover:last-child{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#menu li a{
+	text-decoration: none;
+	color: black;
+}
+#menu li:hover > #podmenu{
+	display: block;
+	float: inherit;
+}
+#menu #podmenu{
+	position: absolute;
+	display: none;
+}
+#menu #podmenu ul{
+	position: absolute;
+}
+#menu #podmenu ul li{
+	width: 100%;
+	list-style-type: none;
+	font-size: 18px;
+	background-color: brown;
+	word-spacing: normal;
+	background-color: #993333;
+	border: 1px solid black;
+	border-bottom: none;
+}
+#menu #podmenu ul li:first-child{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#menu #podmenu ul li:last-child{
+	border-bottom: 1px solid black;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#menu #podmenu ul li:hover{
+	text-decoration: none;
+	background-color: #bf4040;
+}

@@ -1,0 +1,248 @@
+body{
+	background-color: #ffffff;
+}
+/*-----------------------------------------------------------*/
+div{
+	width: 80%;
+	margin: auto;
+	background-color: #ecc6c6;
+}
+div div{
+	float: right;
+	width: 82%;
+	font-family: "Times New Roman", Times, serif;
+}
+/*-----------------------------------------------------------*/
+#Zdjecia{
+	width: 100%;
+	margin-bottom: 5%;
+	background-color: black;
+}
+#Zdjecia img{
+	width: 16.21%;
+	height: 98%;
+	float: left;
+	border:2px solid black;
+}
+#Zdjecia img:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+}
+/*-----------------------------------------------------------*/
+div div h1{
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#Aktual{
+	width: 69%;
+	float: left;
+	font-size: 100%;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+}
+#Aktual .More{
+	text-decoration: none;
+}
+#Aktual .More:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*-----------------------------------------------------------*/
+#Onas{
+	width: 27%;
+	float: right;
+	padding: 1%;
+	border: 3px solid black;
+}
+#Onas p{
+	font-size: 100%;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	text-align: justify;
+}
+/*-----------------------------------------------------------*/
+.Hidden{
+	display: none;
+}
+.More{
+	text-decoration: underline;
+	color: darkblue;
+}
+/*-----------------------------------------------------------*/
+#hr{
+	width: 100%;
+	float: left;
+}
+#KartyDan{
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin: 0;
+	text-decoration: underline;
+}
+#Karta1{
+	width: 100%;
+	display: none;
+}
+#Karta2{
+	width: 100%;
+	display: none;
+}
+#Karta3{
+	width: 100%;
+	display: none;
+}
+#Karta4{
+	width: 100%;
+	display: none;
+}
+#h31{
+	float: left;
+	width: 100%;
+}
+#h31:hover{
+	cursor: pointer;
+}
+#h32{
+	float: left;
+	width: 100%;
+}
+#h32:hover{
+	cursor: pointer;
+}
+#h33{
+	float: left;
+	width: 100%;
+}
+#h33:hover{
+	cursor: pointer;
+}
+#h34{
+	float: left;
+	width: 100%;
+}
+#h34:hover{
+	cursor: pointer;
+}
+
+#KartaZup{
+	width: 40%;
+	float: left;
+}
+#KartaZup ul{
+	list-style-type: none;
+}
+#KartaZupCeny{
+	float: left;
+	width: 20%;
+	margin: 0;
+}
+#KartaZupCeny h4{
+	margin: 0;
+}
+#KartaZupCeny ul{
+	list-style-type: none;
+}
+
+#KartaDanG{
+	width: 40%;
+	float: left;
+}
+#KartaDanG ul{
+	list-style-type: none;
+}
+#KartaDanGCeny{
+	width: 20%;
+	float: left;
+	margin: 0;
+}
+#KartaDanGCeny h4{
+	margin: 0;
+}
+#KartaDanGCeny ul{
+	list-style-type: none;
+}
+
+#KartaDes{
+	width: 40%;
+	float: left;
+}
+#KartaDes ul{
+	list-style-type: none;
+}
+#KartaDesCeny{
+	width: 20%;
+	float: left;
+	margin: 0;
+}
+#KartaDesCeny h4{
+	margin: 0;
+}
+#KartaDesCeny ul{
+	list-style-type: none;
+}
+
+#KartaNap{
+	width: 40%;
+	float: left;
+}
+#KartaNap ul{
+	list-style-type: none;
+}
+#KartaNapCeny{
+	width: 20%;
+	float: left;
+	margin: 0;
+}
+#KartaNapCeny h4{
+	margin: 0;
+}
+#KartaNapCeny ul{
+	list-style-type: none;
+}
+/*-----------------------------------------------------------*/
+#Kontakt{
+	float: left;
+	width: 100%;
+	margin-top: 2%;
+	padding: 0;
+	background-color: #545456;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#Kontakt h4{
+	margin-top: 1%;
+	margin-left: 5%;
+	width: 40%;
+}
+#Kontakt ul li{
+	list-style-type: none;
+}
+#Kontakt #ul1{
+	float: left;
+	width:40%;
+	margin: 0;
+	padding: 0;
+	padding-left: 2%;
+}
+#Kontakt h5{
+	float: right;
+	width: 46%;
+	margin: 0;
+}
+#Kontakt #ul2{
+	float: right;
+	width: 46%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 2%;
+}
+#Kontakt #ul2 li a{
+	text-decoration: none;
+	color: #002266;
+}
+#Kontakt #ul2 li a:hover{
+	text-decoration: underline;
+}
